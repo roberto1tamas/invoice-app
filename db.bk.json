@@ -1,0 +1,446 @@
+{
+  "invoices": [
+    {
+      "id": "3080",
+      "status": "pending",
+      "paymentDueDate": "19/08/2021",
+      "billFrom": {
+        "street": "19 Union Terrace",
+        "city": "London",
+        "postCode": "E1 3EZ",
+        "country": "United Kingdom"
+      },
+      "billTo": {
+        "name": "Alex Munteanu",
+        "email": "alexmunteanu@mail.com",
+        "street": "84 Chruch Way",
+        "city": "Bradford",
+        "postCode": "BD1 9PB",
+        "country": "United Kingdom"
+      },
+      "invoiceDate": "2023-11-10T08:30:00.000Z",
+      "paymentTerms": "30",
+      "projectDescription": "Graphic Design",
+      "itemsList": [
+        {
+          "itemName": "Banner Design",
+          "quantity": 1,
+          "price": 156
+        },
+        {
+          "itemName": "Email Design",
+          "quantity": 2,
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": "3081",
+      "status": "pending",
+      "paymentDueDate": "25/08/2021",
+      "billFrom": {
+        "street": "22 Oak Street",
+        "city": "Manchester",
+        "postCode": "M1 2WG",
+        "country": "United Kingdom"
+      },
+      "billTo": {
+        "name": "Emma White",
+        "email": "emmawhite@mail.com",
+        "street": "45 Pine Avenue",
+        "city": "Leeds",
+        "postCode": "LS1 8TP",
+        "country": "United Kingdom"
+      },
+      "invoiceDate": "2023-11-20T15:45:00.000Z",
+      "paymentTerms": "14",
+      "projectDescription": "Web Development",
+      "itemsList": [
+        {
+          "itemName": "Website Design",
+          "quantity": 1,
+          "price": 300
+        },
+        {
+          "itemName": "Frontend Development",
+          "quantity": 3,
+          "price": 450
+        }
+      ]
+    },
+    {
+      "id": "3082",
+      "status": "pending",
+      "paymentDueDate": "02/09/2021",
+      "billFrom": {
+        "street": "15 Maple Lane",
+        "city": "Birmingham",
+        "postCode": "B1 3DF",
+        "country": "United Kingdom"
+      },
+      "billTo": {
+        "name": "John Doe",
+        "email": "johndoe@mail.com",
+        "street": "30 Birch Street",
+        "city": "Liverpool",
+        "postCode": "L1 7DG",
+        "country": "United Kingdom"
+      },
+      "invoiceDate": "2023-12-05T11:20:00.000Z",
+      "paymentTerms": "7",
+      "projectDescription": "Content Writing",
+      "itemsList": [
+        {
+          "itemName": "Blog Posts",
+          "quantity": 5,
+          "price": 100
+        },
+        {
+          "itemName": "SEO Optimization",
+          "quantity": 1,
+          "price": 250
+        }
+      ]
+    },
+    {
+      "id": "3083",
+      "status": "pending",
+      "paymentDueDate": "15/09/2021",
+      "billFrom": {
+        "street": "10 Pine Street",
+        "city": "Glasgow",
+        "postCode": "G1 4RS",
+        "country": "United Kingdom"
+      },
+      "billTo": {
+        "name": "Ema Karter",
+        "email": "ema@karter.com",
+        "street": "96 Birch Avenue",
+        "city": "Edinburgh",
+        "postCode": "EH1 2HG",
+        "country": "United Kingdom"
+      },
+      "invoiceDate": "2023-12-15T18:00:00.000Z",
+      "paymentTerms": "1day",
+      "projectDescription": "Social Media Marketing",
+      "itemsList": [
+        {
+          "itemName": "Social Media Strategy",
+          "quantity": 1,
+          "price": 1800
+        },
+        {
+          "itemName": "Ad Campaign",
+          "quantity": 9,
+          "price": 300
+        }
+      ]
+    },
+    {
+      "id": "3095",
+      "status": "draft",
+      "paymentDueDate": "20/09/2021",
+      "billFrom": {
+        "street": "5 Maple Lane",
+        "city": "Cardiff",
+        "postCode": "CF10 2TG",
+        "country": "United Kingdom"
+      },
+      "billTo": {
+        "name": "Michael Brown",
+        "email": "michaelbrown@mail.com",
+        "street": "15 Oak Street",
+        "city": "Bristol",
+        "postCode": "BS1 5TG",
+        "country": "United Kingdom"
+      },
+      "invoiceDate": "2023-12-25T22:30:00.000Z",
+      "paymentTerms": "30",
+      "projectDescription": "Software Development",
+      "itemsList": [
+        {
+          "itemName": "Backend Development",
+          "quantity": 1,
+          "price": 400
+        },
+        {
+          "itemName": "Database Design",
+          "quantity": 2,
+          "price": 600
+        }
+      ]
+    },
+    {
+      "id": "3096",
+      "status": "pending",
+      "paymentDueDate": "25/09/2021",
+      "billFrom": {
+        "street": "18 Cedar Street",
+        "city": "Dublin",
+        "postCode": "D01 H304",
+        "country": "Ireland"
+      },
+      "billTo": {
+        "name": "Sophie Miller",
+        "email": "sophiemiller@mail.com",
+        "street": "28 Elm Avenue",
+        "city": "Galway",
+        "postCode": "H91 P2N3",
+        "country": "Ireland"
+      },
+      "invoiceDate": "2024-01-02T07:45:00.000Z",
+      "paymentTerms": "14",
+      "projectDescription": "Video Production",
+      "itemsList": [
+        {
+          "itemName": "Script Writing",
+          "quantity": 1,
+          "price": 250
+        },
+        {
+          "itemName": "Video Editing",
+          "quantity": 3,
+          "price": 400
+        }
+      ]
+    },
+    {
+      "id": "3097",
+      "status": "paid",
+      "paymentDueDate": "12/10/2021",
+      "billFrom": {
+        "street": "7 Walnut Lane",
+        "city": "Amsterdam",
+        "postCode": "1012 XT",
+        "country": "Netherlands"
+      },
+      "billTo": {
+        "name": "Thomas Wilson",
+        "email": "thomaswilson@mail.com",
+        "street": "15 Oak Avenue",
+        "city": "Rotterdam",
+        "postCode": "3012 BP",
+        "country": "Netherlands"
+      },
+      "invoiceDate": "2024-01-12T14:10:00.000Z",
+      "paymentTerms": "30",
+      "projectDescription": "UX/UI Design",
+      "itemsList": [
+        {
+          "itemName": "Wireframing",
+          "quantity": 2,
+          "price": 300
+        },
+        {
+          "itemName": "Prototyping",
+          "quantity": 1,
+          "price": 200
+        }
+      ]
+    },
+    {
+      "id": "3099",
+      "status": "draft",
+      "paymentDueDate": "15/10/2021",
+      "billFrom": {
+        "street": "25 Pine Street",
+        "city": "Paris",
+        "postCode": "75001",
+        "country": "France"
+      },
+      "billTo": {
+        "name": "Julia Rodriguez",
+        "email": "juliarodriguez@mail.com",
+        "street": "12 Birch Avenue",
+        "city": "Lyon",
+        "postCode": "69001",
+        "country": "France"
+      },
+      "invoiceDate": "2024-01-20T19:25:00.000Z",
+      "paymentTerms": "7",
+      "projectDescription": "Marketing Campaign",
+      "itemsList": [
+        {
+          "itemName": "Social Media Ads",
+          "quantity": 1,
+          "price": 150
+        },
+        {
+          "itemName": "Printed Materials",
+          "quantity": 500,
+          "price": 300
+        }
+      ]
+    },
+    {
+      "id": "3100",
+      "status": "pending",
+      "paymentDueDate": "20/10/2021",
+      "billFrom": {
+        "street": "30 Cedar Lane",
+        "city": "Berlin",
+        "postCode": "10115",
+        "country": "Germany"
+      },
+      "billTo": {
+        "name": "Robert Smith",
+        "email": "robertsmith@mail.com",
+        "street": "42 Elm Street",
+        "city": "Munich",
+        "postCode": "80331",
+        "country": "Germany"
+      },
+      "invoiceDate": "2024-01-25T09:50:00.000Z",
+      "paymentTerms": "14",
+      "projectDescription": "E-commerce Website",
+      "itemsList": [
+        {
+          "itemName": "Website Design",
+          "quantity": 1,
+          "price": 400
+        },
+        {
+          "itemName": "Shopping Cart Implementation",
+          "quantity": 1,
+          "price": 600
+        }
+      ]
+    },
+    {
+      "id": "3101",
+      "status": "paid",
+      "paymentDueDate": "02/11/2021",
+      "billFrom": {
+        "street": "15 Walnut Avenue",
+        "city": "Madrid",
+        "postCode": "28001",
+        "country": "Spain"
+      },
+      "billTo": {
+        "name": "Maria Garcia",
+        "email": "mariagarcia@mail.com",
+        "street": "25 Pine Lane",
+        "city": "Barcelona",
+        "postCode": "08002",
+        "country": "Spain"
+      },
+      "invoiceDate": "2024-01-30T16:15:00.000Z",
+      "paymentTerms": "30",
+      "projectDescription": "Mobile App Development",
+      "itemsList": [
+        {
+          "itemName": "App UI Design",
+          "quantity": 1,
+          "price": 250
+        },
+        {
+          "itemName": "Backend Integration",
+          "quantity": 1,
+          "price": 450
+        }
+      ]
+    },
+    {
+      "id": "3102",
+      "status": "pending",
+      "paymentDueDate": "15/11/2021",
+      "billFrom": {
+        "street": "22 Birch Street",
+        "city": "Rome",
+        "postCode": "00184",
+        "country": "Italy"
+      },
+      "billTo": {
+        "name": "Giuseppe Rossi",
+        "email": "giusepperossi@mail.com",
+        "street": "35 Cedar Avenue",
+        "city": "Milan",
+        "postCode": "20121",
+        "country": "Italy"
+      },
+      "invoiceDate": "2023-11-20T15:45:00.000Z",
+      "paymentTerms": "7",
+      "projectDescription": "Photography Services",
+      "itemsList": [
+        {
+          "itemName": "Photo Session",
+          "quantity": 1,
+          "price": 200
+        },
+        {
+          "itemName": "Photo Editing",
+          "quantity": 10,
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "3103",
+      "status": "draft",
+      "paymentDueDate": "10/12/2021",
+      "billFrom": {
+        "street": "8 Oak Lane",
+        "city": "Zurich",
+        "postCode": "8001",
+        "country": "Switzerland"
+      },
+      "billTo": {
+        "name": "Anna Müller",
+        "email": "annamueller@mail.com",
+        "street": "18 Elm Street",
+        "city": "Geneva",
+        "postCode": "1201",
+        "country": "Switzerland"
+      },
+      "invoiceDate": "2023-12-15T18:00:00.000Z",
+      "paymentTerms": "30",
+      "projectDescription": "Consulting Services",
+      "itemsList": [
+        {
+          "itemName": "Strategic Planning",
+          "quantity": 1,
+          "price": 500
+        },
+        {
+          "itemName": "Market Analysis",
+          "quantity": 2,
+          "price": 300
+        }
+      ]
+    },
+    {
+      "id": "3105",
+      "status": "paid",
+      "paymentDueDate": "05/01/2022",
+      "billFrom": {
+        "street": "12 Pine Avenue",
+        "city": "Vienna",
+        "postCode": "1010",
+        "country": "Austria"
+      },
+      "billTo": {
+        "name": "Franz Schmidt",
+        "email": "franzschmidt@mail.com",
+        "street": "20 Cedar Lane",
+        "city": "Salzburg",
+        "postCode": "5020",
+        "country": "Austria"
+      },
+      "invoiceDate": "2024-01-02T07:45:00.000Z",
+      "paymentTerms": "14",
+      "projectDescription": "Event Planning",
+      "itemsList": [
+        {
+          "itemName": "Venue Booking",
+          "quantity": 1,
+          "price": 300
+        },
+        {
+          "itemName": "Catering Services",
+          "quantity": 100,
+          "price": 200
+        }
+      ]
+    }
+  ]
+}
