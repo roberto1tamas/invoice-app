@@ -5,7 +5,7 @@ import Button from "../Button";
 import { useState } from "react";
 
 type Modal = {
-  idToDelete: string;
+  idToDelete: number;
   onClose: () => void;
 };
 
@@ -13,7 +13,7 @@ export default function ModalDelete({ idToDelete, onClose }: Modal) {
   const [isDeleting, setIsDeleting] = useState<boolean>(false);
   const navigate = useNavigate();
 
-  const handleDelete = async (idToDelete: string) => {
+  const handleDelete = async (idToDelete: number) => {
     setIsDeleting(true);
     try {
       await deleteInvoice(idToDelete);
