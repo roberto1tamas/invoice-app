@@ -16,7 +16,7 @@ export default function UserAvatar() {
     supabase,
   } = useContext(AuthContext);
 
-  const userImgPath = "/src/assets/avatars/";
+  const userImgPath = "/public/imgs/avatars/";
   const userImgID = getUserAvatarID(user?.created_at);
   const userImg = new URL(`${userImgPath}${userImgID}.jpg`, import.meta.url)
     .href;
