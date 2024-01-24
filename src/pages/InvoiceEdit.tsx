@@ -23,7 +23,7 @@ export default function InvoiceEdit() {
         )}
       </h2>
 
-      <div className="pb:12 sm:pb-20">
+      <div className="pb-16 sm:pb-20">
         {/* <InvoiceForm isEdit={isEdit} defaultValues={invoice} /> */}
         <InvoiceForm />
       </div>

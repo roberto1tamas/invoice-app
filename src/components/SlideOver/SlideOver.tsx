@@ -34,7 +34,7 @@ export default function SlideOver({ children }: PropsWithChildren) {
   const navigate = useNavigate();
 
   useClickOutsideModal(modalContentRef, modalOverlayRef, handleCloseEdit);
-  usePreventBodyScroll(isOpen);
+  usePreventBodyScroll(true);
 
   return createPortal(
     <SlideOverContext.Provider value={{ isOpen, handleCloseEdit }}>
@@ -51,7 +51,7 @@ export default function SlideOver({ children }: PropsWithChildren) {
         }}
       >
         <div
-          className="fixed bottom-0 left-0 right-0 top-[4.5rem] z-10 h-[calc(100vh-4.5rem)] lg:left-[4.5rem] lg:top-0 lg:h-screen"
+          className="fixed bottom-0 left-0 right-0 top-[4.5rem] z-10 h-[calc(100vh-4.5rem)] overflow-y-scroll lg:left-[4.5rem] lg:top-0 lg:h-screen"
           ref={modalOverlayRef}
         >
           <Transition.Child
@@ -78,7 +78,7 @@ export default function SlideOver({ children }: PropsWithChildren) {
             <div className="left-0 top-0 h-full w-full overflow-y-scroll sm:w-4/5 lg:w-4/6">
               <div
                 ref={modalContentRef}
-                className="w-full transform overflow-y-scroll bg-white-pure p-6 pb-28 shadow-10 sm:rounded-r-lg sm:p-12 lg:pb-12 dark:bg-dark-mirage"
+                className="w-full transform overflow-y-scroll bg-white-pure p-6 pb-28 shadow-10 dark:bg-dark-mirage sm:rounded-r-lg sm:p-12 lg:pb-12"
               >
                 <ButtonGoBack onClick={handleCloseEdit} />
 
