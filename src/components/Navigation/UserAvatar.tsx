@@ -18,7 +18,8 @@ export default function UserAvatar() {
 
   const userImgPath = "/src/assets/avatars/";
   const userImgID = getUserAvatarID(user?.created_at);
-  const userImg = new URL(`${userImgPath}${userImgID}.jpg`, import.meta.url);
+  const userImg = new URL(`${userImgPath}${userImgID}.jpg`, import.meta.url)
+    .href;
 
   const handleSignOut = async () => {
     const { error } = await supabase.auth.signOut();
@@ -33,11 +34,7 @@ export default function UserAvatar() {
   return (
     <Menu as="div" className="inline-block text-left">
       <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm transition ease-in-out hover:outline-none hover:ring-2 hover:ring-white hover:ring-offset-2 active:ring-offset-gray-800">
-        <img
-          className="h-8 w-8 rounded-full"
-          src={userImg.toString()}
-          alt="User"
-        />
+        <img className="h-8 w-8 rounded-full" src={userImg} alt="User" />
       </Menu.Button>
 
       <Transition
