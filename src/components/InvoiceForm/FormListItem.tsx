@@ -83,7 +83,7 @@ export default function FormListItem({
           required={Boolean(errorItemPrice)}
         />
       </div>
-      <div className="col-span-4 overflow-scroll sm:col-span-2">
+      <div className="col-span-4 sm:col-span-2">
         <label className="sm:hidden">Total</label>
         <p className="my-2 py-5 text-hs-variant">
           {(Number(price) || 0) * (Number(quantity) || 0)}
