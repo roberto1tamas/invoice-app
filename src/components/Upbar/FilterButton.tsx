@@ -1,6 +1,6 @@
 import { useSearchParams } from "react-router-dom";
 import { Popover, Transition } from "@headlessui/react";
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { IconArrowDown } from "../ui/Icon";
 import CheckBox from "../ui/form/CheckBox";
 
@@ -22,9 +22,21 @@ export default function FilterButton({
     paid: statusParams?.includes("paid") ?? false,
   });
 
-  function handleCheck(status: InvoiceStatus) {
-    setStatusFilter({ ...statusFilter, [status]: !statusFilter[status] });
+  /* useEffect approach is used to solve the situations in which the user click on Logo
+   * and the SearchParams are reseting without also reseting statusFilter */
+  useEffect(() => {
+    const statusParams = Object.fromEntries([...filterParams])?.status?.split(
+      ",",
+    );
 
+    setStatusFilter({
+      draft: statusParams?.includes("draft") ?? false,
+      pending: statusParams?.includes("pending") ?? false,
+      paid: statusParams?.includes("paid") ?? false,
+    });
+  }, [filterParams]);
+
+  function handleCheck(status: InvoiceStatus) {
     updateParams(status, !statusFilter[status]);
   }
 
