@@ -38,7 +38,7 @@ export const listInvoices = async (
       .from("Invoices")
       .select()
       .eq("createdBy", userId)
-      .order("id", { ascending: true })
+      .order("id", { ascending: false })
       .abortSignal(abortController.signal);
 
     if (error && !abortController.signal.aborted) {
