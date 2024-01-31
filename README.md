@@ -1,13 +1,13 @@
-# <a href="https://invoice-app-rt.vercel.app"  target="_blank"> Invoice App</a>
+# <a href="https://invoice-app-rt.vercel.app"  target="_blank">Invoice App - React TypeScript / Supabase backend</a>
 
-### → See the app: <a href="https://invoice-app-rt.vercel.app"  target="_blank">https://invoice-app-rt.vercel.app</a>
+### <a href="https://invoice-app-rt.vercel.app"  target="_blank">→ See the app: https://invoice-app-rt.vercel.app</a>
 
 <p>
    This project is for portfolio showcase.
 
-### Source of the Design
+### Source of the UI Design (Figma)
 
-The app represents a GURU (dificulty lvl 5/5) challenge on Frontend Mentor, where the <a href="https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl" target="_blank">Figma</a> project can be downloaded. The entire app has been implemented from 0, without following any tutorial.
+The project UI Design represents a GURU challenge (dificulty level 5/5) on Frontend Mentor, where the <a href="https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl" target="_blank">Figma</a> UI Design project can be <a href="https://www.frontendmentor.io/challenges/invoice-app-i7KaLTQjl" target="_blank">downloaded</a> under premium subscription. The entire app has been implemented from 0, without following any tutorial, demonstrating the implementation of a UI Design to a fully functional React App.
 
 </p>
 
