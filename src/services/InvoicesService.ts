@@ -94,7 +94,7 @@ export const createInvoice = async (payload: Invoice) => {
     const parsedPayload = await parseInvoice(payload);
     const dbInvoice = modifierInvoiceToDB(parsedPayload);
 
-    console.log("modifierInvoiceToDB: ", dbInvoice);
+    //console.log("modifierInvoiceToDB: ", dbInvoice);
 
     const { data, error } = await supabase
       .from("Invoices")
@@ -107,7 +107,7 @@ export const createInvoice = async (payload: Invoice) => {
       );
     }
 
-    console.log("Db responsed after insert: ", data);
+    //console.log("Db responsed after insert: ", data);
 
     const invoice = modifierInvoice(data[0]);
     return await parseInvoice(invoice);

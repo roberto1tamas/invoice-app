@@ -26,6 +26,7 @@ import { SlideOverContext } from "../SlideOver/SlideOver";
 import { generateUniqueId, getFakerInvoice } from "../../utils/utils";
 import { createInvoice, updateInvoice } from "../../services/InvoicesService";
 import { useOutletContext } from "react-router";
+import { SlideOverOutletContext } from "../../interfaces/context";
 
 export default function InvoiceForm() {
   const [submitingStatus, setSubmitingStatus] = useState<
@@ -35,11 +36,8 @@ export default function InvoiceForm() {
   const { handleCloseEdit: handleCloseSlideOver } =
     useContext(SlideOverContext);
 
-  type OutletContext = [
-    invoice: Invoice | null,
-    handleSetInvoice: (invoice: Invoice) => void,
-  ];
-  const [invoice, handleSetInvoice] = useOutletContext<OutletContext>() || [];
+  const [invoice, handleSetInvoice] =
+    useOutletContext<SlideOverOutletContext>() || [];
 
   let isEdit: boolean;
   invoice === undefined || invoice === null
