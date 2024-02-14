@@ -37,3 +37,12 @@ React • TypeScript • <a href="https://reactrouter.com/en/main" target="_blan
 - [x] Zod is used both for validating data in Forms and sending/receiving data from Supabase. It is used as unique source of truth
 - [x] Random user profile image
 - [x] Dark mode
+
+## Run it locally?
+
+The initial version for CRUD operations was developed using `json-server` library to mock the REST API, which servered the invoice(s) from `db.json` file present in root folder. Then the project was moved to Supabase which required using Supabase's Js library to make CRUD operations (similar to Firebase) together with some env variables for credentials. ENV variables are not provided in the repo due to security reasons, therefor the present setup of the project doesn't provide a "plug & play" experience.
+
+To run the project locally you need to:
+
+- modify the imports to point to `/service/local.InvoicesService.ts` which contains fetch functions, instead of `/service/InvoicesService.ts` which uses Supabase's Js library functions to fetch data.
+- make sure json-server library is installed and run `json-server db.json` in a new terminal.
