@@ -2,6 +2,9 @@
 
 ### <a href="https://invoice-app-rt.vercel.app"  target="_blank">→ See the app: https://invoice-app-rt.vercel.app</a>
 
+<img src="app-screenshot.png" width="70%"/>
+
+<br/>
 <p>
    This project is for portfolio showcase.
 
