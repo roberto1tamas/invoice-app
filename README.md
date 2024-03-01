@@ -44,6 +44,7 @@ React • TypeScript • <a href="https://reactrouter.com/en/main" target="_blan
   - [x] Random user profile image assigned to each new demo user.
   - [x] All the data is stored and synced with Supabase Database (PostgreSQL).
 - [x] React Hook Form for form management.
+- [x] Used Faker library to generate invoice data for form fields when user click -Insert random data- button.
 - [x] Dark mode.
 
 ## Run it locally?
