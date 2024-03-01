@@ -51,3 +51,14 @@ To run the project locally you need to:
 
 - modify the imports to point to `/service/local.InvoicesService.ts` which contains fetch functions, instead of `/service/InvoicesService.ts` which uses Supabase's Js library functions to fetch data.
 - make sure json-server library is installed and run `json-server db.json` in a new terminal.
+
+## What could be improved
+
+- [ ] Caching for data fetching using SWR or React Query library
+- [ ] useTransition hook to ensure the UI is not blocked while expensive state update is happening
+- [ ] Performance: fine tuning the lazy loading and preloading strategies
+  - For this project I'm not considering NEXT.js because the scope of the project was to deeply understand the pure React.
+
+## Easter Eggs
+
+Of course. The 13th user profile image that can be assigned to a new demo user is an image of Alex Nedea de la Recorder. Lucky you if you get him (or not?).
