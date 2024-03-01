@@ -21,22 +21,27 @@ React • TypeScript • <a href="https://reactrouter.com/en/main" target="_blan
 
 ## Features
 
-- [x] Create / Update / Delete Invoices
-  - [x] Saving a new invoice as Draft or Pending
-  - [x] Change existing invoice status: draft / pending / paid
-  - [x] Edit all the fields of an existing invoice
-- [x] Filter invoices list by status
-- [x] Slide-Over components renders with new route (/new or /invoice/:id/edit)
-- [x] Modals and Slide-Over designed from 0 (no library used)
-  - [x] Headless UI has been used just to accelare the development of popovers
-- [x] Supabase as backend as a service
-  - [x] Authentification (app is designed for portfolio showcase, therefor only auth as a demo user is allowed - the demo user is generated for each login)
-  - [x] All the data is stored and synced with Supabase Database (PostgreSQL)
-- [x] Lazy load and UI loading state with skeletons
-- [x] React Hook Form for form management
-- [x] Zod is used both for validating data in Forms and sending/receiving data from Supabase. It is used as unique source of truth
-- [x] Random user profile image
-- [x] Dark mode
+- [x] Built the entire UI components from scratch (minimal use of external libraries).
+  - [x] Modals and Slide-Over designed from scratch (no library used).
+  - [x] Mobile-first approach.
+  - [x] Headless UI has been used just to accelerate the development of popovers and for transitions.
+- [x] CRUD Operations: Implemented features for Creating, Updating, and Deleting invoices.
+  - [x] Saving a new invoice as Draft or Pending.
+  - [x] Change existing invoice status: draft / pending / paid.
+  - [x] Edit all the fields of an existing invoice.
+  - [x] While performing CRUD operations, UI displays loading state (skeletons, spinner icon in buttons etc).
+  - [x] The initial version was developed by performing CRUD operations via fetch API (with local mock API) and then moved to Supabase API.
+- [x] Data Validation with Zod: Implemented data validation in forms and CRUD operations using Zod, ensuring data integrity.
+- [x] Filter invoices list by status (multiple choice).
+  - [x] By using URL params the filter feature is available when the link is shared or accesed directly.
+- [x] Routing & Layout: Slide-Over components renders with new route (/new or /invoice/:id/edit), while keeping the in background the previous view.
+- [x] Lazy load with Suspense and UI loading feedback with skeletons.
+- [x] Backend Integration: Supabase as backend as a service.
+  - [x] Authentication: Implemented basic authentication for demonstration purposes (demo user generated on login).
+  - [x] Random user profile image assigned to each new demo user.
+  - [x] All the data is stored and synced with Supabase Database (PostgreSQL).
+- [x] React Hook Form for form management.
+- [x] Dark mode.
 
 ## Run it locally?
 
