@@ -3,7 +3,7 @@ import { Controller, useFieldArray, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 
 import DatePicker from "react-datepicker";
-import "/public/css/react-datepicker.css";
+import "../../assets/css/react-datepicker.css";
 
 import {
   invoiceSchema,

@@ -1,5 +1,6 @@
+import "../../assets/css/login-illustration.css";
+
 import { ComponentPropsWithoutRef } from "react";
-import "/public/css/login-illustration.css";
 
 export default function LoginIllustration({
   ...props
